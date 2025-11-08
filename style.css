@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #1A1A1A;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFE84D;
+  color: #0033A0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  color: #0033A0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.banner-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #0033A0;
+  background-color: rgba(255, 232, 77, 0.8);
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+.conteudo {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.colorido {
+  background-color: #FFE84D;
+  color: #0033A0;
+}
+
+.produtos {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.grid-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  text-align: center;
+  width: 300px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.qr {
+  display: block;
+  margin: 30px auto;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #0033A0;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer a {
+  color: #FFE84D;
+  text-decoration: none;
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
